@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/productos.css">
+  <title>Productos</title>
+</head>
+<body>
+  <header>
+    <h1>Productos</h1>
+  </header>
+
+  <section id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul id="lista-carrito">
+        <!-- Los elementos del carrito se agregarán dinámicamente aquí -->
+    </ul>
+    <p>Total: $<span id="total">0</span></p>
+    <button onclick="realizarCompra()">Realizar Compra</button>
+</section>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="help.html">Servicio de Impresión</a></li>
+    </ul>
+  </nav>
+
+  <section class="items-row1">
+            <fieldset id="space">
+                <legend>Accesorios para Dispositivos Electrónicos</legend>
+                <img src="" alt="">
+                <p id="usb">Cargadores USB 1 <button onclick="agregarAlCarrito(1)">Comprar</button></p>
+                <p>Auriculares 2 <button onclick="agregarAlCarrito(2)">Comprar</button></p>
+                <p>Alfombrillas para ratón 3 <button onclick="agregarAlCarrito(3)">Comprar</button></p>
+                <p>Protectores de pantalla 4 <button onclick="agregarAlCarrito(4)">Comprar</button></p>
+            </fieldset>
+
+            <fieldset id="space">
+                <legend>Suministros Escolar</legend>
+                <img src="" alt="">
+                <p>Bolígrafos y lápices 5 <button onclick="agregarAlCarrito(5)">Comprar</button></p>
+                <p>Cuadernos y blocs de notas 6 <button onclick="agregarAlCarrito(6)">Comprar</button></p>
+                <p>Organizadores de escritorio 7 <button onclick="agregarAlCarrito(7)">Comprar</button></p>
+                <p>Clips y sujetapapeles 8 <button onclick="agregarAlCarrito(8)">Comprar</button></p>
+            </fieldset>
+
+            <fieldset id="space">
+                <legend>Artículos de Papelería Creativa</legend>
+                <img src="" alt="">
+                <p>Marcadores y rotuladores 9 <button onclick="agregarAlCarrito(9)">Comprar</button></p>
+                <p>Pegatinas decorativas 10 <button onclick="agregarAlCarrito(10)">Comprar</button></p>
+                <p>Blocs de dibujo y papel artístico 11 <button onclick="agregarAlCarrito(11)">Comprar</button></p>
+                <p>Material para manualidades 12 <button onclick="agregarAlCarrito(12)">Comprar</button></p>
+            </fieldset>
+
+            <fieldset id="space">
+                <legend>Artículos de Conectividad</legend>
+                <img src="" alt="">
+                <p>Cables USB 13 <button onclick="agregarAlCarrito(13)">Comprar</button></p>
+                <p>Adaptadores de corriente 14 <button onclick="agregarAlCarrito(14)">Comprar</button></p>
+                <p>Hub USB 15 <button onclick="agregarAlCarrito(15)">Comprar</button></p>
+                <p>Tarjetas de memoria 16 <button onclick="agregarAlCarrito(16)">Comprar</button></p>
+            </fieldset>
+  </section>
+
+  <section class="items-row2">
+            
+    <fieldset id="space">
+        <legend>Productos de Almacenamiento</legend>
+        <img src="" alt="">
+        <p>Unidades flash 17 <button onclick="agregarAlCarrito(17)">Comprar</button></p>
+        <p>Discos duros externos 18 <button onclick="agregarAlCarrito(18)">Comprar</button></p>
+        <p>Fundas para laptops y tablets 19 <button onclick="agregarAlCarrito(19)">Comprar</button></p>
+        <p>Mochilas para laptops 20 <button onclick="agregarAlCarrito(20)">Comprar</button></p>
+    </fieldset>
+
+    <fieldset id="space">
+        <legend>Productos de Seguridad y Privacidad</legend>
+        <img src="" alt="">
+        <p>Cubiertas de cámara para dispositivos 21 <button onclick="agregarAlCarrito(21)">Comprar</button></p>
+        <p>Filtros de privacidad para pantallas 22 <button onclick="agregarAlCarrito(22)">Comprar</button></p>
+        <p>Candados para laptops 23 <button onclick="agregarAlCarrito(23)">Comprar</button></p>
+    </fieldset>
+
+    <fieldset id="space">
+        <legend>Libros y Revistas</legend>
+        <img src="" alt="">
+        <p>Revistas especializadas en tecnología 24 <button onclick="agregarAlCarrito(24)">Comprar</button></p>
+        <p>Libros de ficción y no ficción 25 <button onclick="agregarAlCarrito(25)">Comprar</button></p>
+        <p>Material educativo relacionado con la informática 26 <button onclick="agregarAlCarrito(26)">Comprar</button></p>
+    </fieldset>
+    
+    <fieldset id="space">
+    <legend>Artículos de Higiene Digital</legend>
+        <p>Limpiadores de pantalla 27 <button onclick="agregarAlCarrito(27)">Comprar</button></p>
+        <p>Teclados y ratones higiénicos 28 <button onclick="agregarAlCarrito(28)">Comprar</button></p>
+        <p>Fundas antimicrobianas 29 <button onclick="agregarAlCarrito(29)">Comprar</button></p>
+
+    </fieldset>
+  </section>
+
+<script src="js/productos.js"></script>
+
+  <footer>
+    <p>&copy; 2023 Centro de Internet</p>
+  </footer>
+</body>
+</html>
